@@ -7,7 +7,7 @@ def numeroPositivoLeitura():
         else:
             print("O número deve ser positivo. Tente novamente.")
 
-# Inicializa o vetor Q com 20 elementos
+# Inicializa o vetor Q com 20 elementoos
 Q = [0] * 20
 
 # Preenche o vetor Q com números positivos
@@ -20,7 +20,7 @@ posicao_maior_elemento = 0
 menor_elemento = Q[0]
 posicao_menor_elemento = 0
 
-# Encontra o maior e o menor elemento e suas posições
+
 for i in range(1, 20):
     if Q[i] > maior_elemento:
         maior_elemento = Q[i]
