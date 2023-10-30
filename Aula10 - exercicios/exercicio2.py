@@ -19,6 +19,6 @@ for nota in notas:
     if nota > media_turma:
         acima_da_media += 1
 
-# Exiba a média da turma e o resultado da contagem
+# exibir a média da turma e o resultado da contagem
 print(f'Média da turma: {media_turma:.2f}')
 print(f'Número de alunos acima da média: {acima_da_media}')
